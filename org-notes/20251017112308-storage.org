@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       14c3a8a4-6aa0-4da7-87b0-edefb9cc4138
+:END:
+#+title: Storage
+
+* Two types of storage
+
+** Block storage
+
+*** Data is organized in blocks
+
+*** Blocks are distributed amongst machines
+
+**** Need to understand how addressing and dynamic scaling up/down happens
+
+*** Examples
+
+**** Glusterfs
+
+** Object storage
+
+*** Data is organized in key value stores
+
+*** Data is accessed as only full objects mostly
+
+*** s3 compatible api
+
+*** Examples
+
+**** minio
+
+* Combined (offers both)
+
+** Ceph
+
+*** Complex
+
+** Seaweedfs
+
+*** Simpler
+
+* Hardware characteristics
+
+** Typically separate
+
+*** Advantages
+    1. Different characteristics than plain compute
+    2. Requirement to scale out, repair, replace
+    3. Can we add more compute while keeping the data the same?

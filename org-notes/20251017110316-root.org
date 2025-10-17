@@ -1,0 +1,71 @@
+:PROPERTIES:
+:ID:       a85fecbc-c5d1-4e00-865a-9414ccfbef24
+:END:
+#+title: Root
+
+Collecting notes about the what, why and how.
+
+* Philosophy
+
+** Pick the right tools for the right job
+
+** Simplicity
+
+*** Its not the same as easy
+
+*** Trumps every other quality
+
+** Do not take up something if you don't understand it
+
+*** Delayed understanding is still ok, but do not delay it beyond a certain time
+
+** Do not fear the hard path
+
+** Reproducibility
+
+*** Ability to run on different hardware profiles with minimal changes
+
+*** Any modification done on the server is impure and cannot be replicated
+
+**** Avoid or classify as debt and take care of it
+
+** Call out inconsistencies where exists
+
+** Efficiency
+
+*** Usage of resources
+
+*** Code efficiency ( not only code performance )
+
+**** Succintness
+
+**** Declarative nature
+
+***** Use nix wherever possible
+
+* Tools
+
+** [[id:492543fb-fbc9-4d87-b1f5-fdfd191970da][Linux]]
+
+** Hardware
+
+*** [[id:2c0cccfe-a54e-4819-9981-d633e94b2120][Networking]]
+
+*** [[id:14c3a8a4-6aa0-4da7-87b0-edefb9cc4138][Storage]]
+
+*** [[id:e7dc0dd2-1463-4192-a904-0db2a6b9745b][Compute & Virtualization]]
+
+** Data and Control Plane
+
+*** Control plane is very crucial for this infrastructure.
+
+*** No SPOF
+
+*** May not need resources, but has to be planned very carefully
+
+**** Listing some of them
+
+     1. DHCP lease
+     2. Consul's control plane
+     3. Nomad's control plane
+     4. Whether we choose ceph/minio/gluster/seaweed, will have some control plane

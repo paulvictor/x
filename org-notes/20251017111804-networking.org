@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       2c0cccfe-a54e-4819-9981-d633e94b2120
+:END:
+#+title: Networking
+
+* How to efficiently networking
+
+* Internetworking
+
+* Naming / Discovery
+
+** We need a way for virtual machines to discover services
+
+** How do we allocate names to each of them? (IP address/hostnames)?
+
+*** [[https://developer.hashicorp.com/consul][Consul]] for service discovery
+
+**** Pros
+
+     1. Integrates well with nomad and the tf ecosystem
+     2. Simpler
+
+*** [[https://github.com/isc-projects/kea][Kea]] for HA DHCP.
+
+**** Why? We do not want to statically encode IP addresses.
+

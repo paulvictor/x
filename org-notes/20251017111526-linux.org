@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       492543fb-fbc9-4d87-b1f5-fdfd191970da
+:END:
+#+title: Linux
+
+
+* Linux is our backbone for our architecture

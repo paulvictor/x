@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       e7dc0dd2-1463-4192-a904-0db2a6b9745b
+:END:
+#+title: Compute & Virtualization
+
+* We are purchasing huge machines with >= 64 cores
+
+** Splitting into workloads is important
+
+*** Virtualization with qemu / cloud hypervisor
+
+*** Pretty much static, cannot be changed once configured
+
+**** Which is ok.
+
+*** Real isolation
+
+*** Close to zero overhead with recent hypervisor improvements
+
+Comparison between hypervisors
+| QEMU                                                | Cloud hypervisor                                       |
+|-----------------------------------------------------+--------------------------------------------------------|
+| Very mature                                         | Relatively new                                         |
+| Has 9p shares for sharing without a virtiofs daemon | Has only virtiofs                                      |
+| Implements full hardware                            | Implements as much needed for running server workloads |
+
+
+
+* Further reading
+
+** memory management across vms
+
+*** memory ballooning
+
+** CPU pinning (and how to enable it)
