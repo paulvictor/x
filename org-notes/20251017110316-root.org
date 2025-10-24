@@ -69,3 +69,4 @@ Collecting notes about the what, why and how.
      2. Consul's control plane
      3. Nomad's control plane
      4. Whether we choose ceph/minio/gluster/seaweed, will have some control plane
+** [[id:678c4e84-c43a-45c5-9ca7-315637e963a7][Implementation]]

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       678c4e84-c43a-45c5-9ca7-315637e963a7
+:END:
+#+title: Implementation
+
+
+[[https://github.com/nix-community/nixos-generators][Nixos Generators]] to generate multiple image variants
+[[https://github.com/nix-community/disko][Disko]] for auto partitioning of filesystems
+[[https://github.com/microvm-nix/microvm.nix][Microvm.nix]] for auto setting up VM's
