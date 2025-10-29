@@ -19,8 +19,13 @@
 
      1. Integrates well with nomad and the tf ecosystem
      2. Simpler
+*** But for initial setup of tools like gluster, we need a way to address nodes.
+**** Looking at static mapping of hostname to ip
 
 *** [[https://github.com/isc-projects/kea][Kea]] for HA DHCP.
 
 **** Why? We do not want to statically encode IP addresses.
 
+**** So we run Kea in HA mode(2 or more instances)
+
+***** To start off, we can run only a single instance
